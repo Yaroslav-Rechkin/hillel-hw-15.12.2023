@@ -143,3 +143,9 @@ body {
 .ddm-side-item:hover {
   background: #f1fafe;
 }
+
+/* Gallery */
+
+.section {
+  background: #fff;
+}
