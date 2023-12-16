@@ -7,11 +7,11 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="header-container">
+  <header class="header" id="home">
     <div class="container">
       <div class="header-wrap">
         <div class="header-logo">
-          <a href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB"><img src="../img/hillel-logo.svg" alt="Hillel IT school" width="17" height="33"></a>
+          <a href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB" target="_blank"><img src="../img/hillel-logo.svg" alt="Hillel IT school" width="17" height="33"></a>
         </div>
         <ul class="menu">
           <li class="menu-item">
@@ -46,50 +46,98 @@
   </header>
 
   <!-- gallery -->
+
   <main class="main">
     <section class="section">
       <div class="container">
         <div class="gallery">
           <div class="gallery-title">
             <h1 class="gallery-title-main">Chrome, Edge, Firefox, Opera, or Safari: Which Browser Is Best for 2023?</h1>
-            <p class="gallery-title-subtitle">Source: <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best">PCmag.com</a></p>
+            <p class="gallery-title-sub">Source: <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best"target="_blank">PCmag.com</a></p>
           </div>
-          <div class="gallery-item" id="chrome">
+          <div class="gallery-item" id="chrome" class="anchor">
             <h2 class="gallery-item-title">Best for Compatibility and Simplicity: Google Chrome</h2>
             <div class="gallery-item-img">
               <img src="../img/gallery-img/chrome.png" alt="Google Chrome" width="900" height="500">
-              <p class="gallery-item-desk">Most people need no introduction to the search behemoth's browser, Google Chrome. It’s attractively designed and quick at loading pages. Most website codes now target Chrome, so compatibility is seldom an issue. Chrome is available for all major platforms, and the mobile version offers syncing of bookmarks, passwords, and settings.</p>
+              <div class="gallery-item-content">
+                <p class="gallery-item-desk">Most people need no introduction to the search behemoth's browser, Google Chrome. It’s attractively designed and quick at loading pages. Most website codes now target Chrome, so compatibility is seldom an issue. Chrome is available for all major platforms, and the mobile version offers syncing of bookmarks, passwords, and settings.</p>
+                <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best" target="_blank">Read more...</a>
+              </div>
             </div>
           </div>
           <div class="gallery-item" id="safari">
             <h2 class="gallery-item-title">Best for Mac Users: Apple Safari</h2>
             <div class="gallery-item-img">
               <img src="../img/gallery-img/safari.png" alt="Apple Safari" width="900" height="500">
-              <p class="gallery-item-desk">The default Mac and iOS browser is a strong choice, though its interface has some nonstandard elements. Safari was a forerunner in several areas of browser features. For example, it was the first with a Reading mode, which cleared unnecessary clutter like ads and videos from web articles you want to read. That feature debuted in 2010 and has made its way into all other browsers except for Chrome.</p>
+              <div class="gallery-item-content">
+                <p class="gallery-item-desk">The default Mac and iOS browser is a strong choice, though its interface has some nonstandard elements. Safari was a forerunner in several areas of browser features. For example, it was the first with a Reading mode, which cleared unnecessary clutter like ads and videos from web articles you want to read. That feature debuted in 2010 and has made its way into all other browsers except for Chrome.</p>
+                <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best" target="_blank">Read more...</a>
+              </div>
             </div>
           </div>
           <div class="gallery-item" id="edge">
             <h2 class="gallery-item-title">Best for Helper Features: Microsoft Edge</h2>
             <div class="gallery-item-img">
               <img src="../img/gallery-img/edge.png" alt="Microsoft Edge" width="900" height="500">
-              <p class="gallery-item-desk">The latest version of Microsoft Edge uses Chrome’s webpage-rendering code, Chromium, guaranteeing site compatibility and freeing up its developers to add unique features. You won’t run into the site incompatibilities users of the previous incarnation of Edge occasionally encountered, and the browser performs snappily. Edge now runs on Apple macOS and Windows 11 and earlier. Mobile versions for Android and iPhone let you sync history, favorites, and passwords.</p>
+              <div class="gallery-item-content">
+                <p class="gallery-item-desk">The latest version of Microsoft Edge uses Chrome’s webpage-rendering code, Chromium, guaranteeing site compatibility and freeing up its developers to add unique features. You won’t run into the site incompatibilities users of the previous incarnation of Edge occasionally encountered, and the browser performs snappily. Edge now runs on Apple macOS and Windows 11 and earlier. Mobile versions for Android and iPhone let you sync history, favorites, and passwords.</p>
+                <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best" target="_blank">Read more...</a>
+              </div>
             </div>
           </div>
           <div class="gallery-item" id="mozilla">
             <h2 class="gallery-item-title">Best for Independent Thinkers: Mozilla Firefox</h2>
             <div class="gallery-item-img">
               <img src="../img/gallery-img/mozilla.png" alt="Mozilla Firefox" width="900" height="500">
-              <p class="gallery-item-desk">Firefox, an open-source project from the nonprofit Mozilla Foundation, has long been a PCMag favorite. The browser has pioneered many web capabilities and the organization that develops it has been a strong advocate for online privacy. It’s also notable for its wealth of available extensions. The unique Multi-Account Containers extension lets you sequester multiple logins to the same site on different tabs. Without it, you'd have to open a private browsing window or another browser to sign out of all your web accounts and start a fresh session.</p>
+              <div class="gallery-item-content">
+                <p class="gallery-item-desk">Firefox, an open-source project from the nonprofit Mozilla Foundation, has long been a PCMag favorite. The browser has pioneered many web capabilities and the organization that develops it has been a strong advocate for online privacy. It’s also notable for its wealth of available extensions. The unique Multi-Account Containers extension lets you sequester multiple logins to the same site on different tabs. Without it, you'd have to open a private browsing window or another browser to sign out of all your web accounts and start a fresh session.</p>
+                <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best" target="_blank">Read more...</a>
+              </div>
             </div>
           </div>
           <div class="gallery-item" id="opera">
             <h2 class="gallery-item-title">Best for Innovative Tools and Built-In VPN: Opera</h2>
             <div class="gallery-item-img">
               <img src="../img/gallery-img/opera.png" alt="Opera" width="900" height="500">
-              <p class="gallery-item-desk">Perennially hovering around the 2% usage level, the Opera browser has long been a pioneer in the segment, inventing basic browser innovations like tabs, CSS, and the built-in search box. Opera can make a bigger privacy claim than the other browsers here—if you’re a believer in VPNs. It includes a built-in VPN (actually an encrypted proxy server) that protects and reroutes traffic from Opera to cloak your IP address. Opera uses the Chromium page-rendering engine, so you'll rarely run into site incompatibilities, and performance is fast. It's available for all major platforms, and the Opera Touch mobile browser is a beautifully designed app that connects (via quick QR scan) to your desktop.</p>
+              <div class="gallery-item-content">
+                <p class="gallery-item-desk">Perennially hovering around the 2% usage level, the Opera browser has long been a pioneer in the segment, inventing basic browser innovations like tabs, CSS, and the built-in search box. Opera can make a bigger privacy claim than the other browsers here—if you’re a believer in VPNs. It includes a built-in VPN (actually an encrypted proxy server) that protects and reroutes traffic from Opera to cloak your IP address. Opera uses the Chromium page-rendering engine, so you'll rarely run into site incompatibilities, and performance is fast. It's available for all major platforms, and the Opera Touch mobile browser is a beautifully designed app that connects (via quick QR scan) to your desktop.</p>
+                <a href="https://www.pcmag.com/picks/chrome-edge-firefox-opera-or-safari-which-browser-is-best" target="_blank">Read more...</a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <div class="nav-list-item-chrome">
+              <a href="#chrome"></a>
+            </div>
+          </li>
+          <li class="nav-list-item">
+            <div class="nav-list-item-safari">
+              <a href="#safari"></a>
+            </div>
+          </li>
+          <li class="nav-list-item">
+            <div class="nav-list-item-edge">
+              <a href="#edge"></a>
+            </div>
+          </li>
+          <li class="nav-list-item">
+            <div class="nav-list-item-mozilla">
+              <a href="#mozilla"></a>
+            </div>
+          </li>
+          <li class="nav-list-item">
+            <div class="nav-list-item-opera">
+              <a href="#opera"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="to-the-top">
+        <div class="to-the-top-img"><a href="#home"></a></div>
       </div>
     </section>
   </main>
