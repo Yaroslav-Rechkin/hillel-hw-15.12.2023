@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
-  <title>Inline-block homework</title>
+  <title>Float homework</title>
 </head>
 <body>
   <header class="header" id="home">
@@ -23,8 +23,8 @@
             <div class="ddm">
               <ul class="ddm-container">
                 <li class="ddm-item"><a href="table.html">table</a></li>
-                <li class="ddm-item"><a href="#">inline-block</a></li>
-                <li class="ddm-item"><a href="float.html">float</a></li>
+                <li class="ddm-item"><a href="inline-block.html">inline-block</a></li>
+                <li class="ddm-item"><a href="#">float</a></li>
                 <li class="ddm-item">layouts
                   <div class="ddm-side">
                     <ul class="ddm-side-container">
@@ -50,36 +50,36 @@
     <!-- to-the-top -->
 
     <a class="to-the-top" href="#home"></a>
-
+    
     <section>
       <div class="container">
-        <h1 class="homework-title">Inline-block homework</h1>
-        <div class="w1200 mb50">
-          <div class="fz0 bg1">
-            <div class="dib w400 h400 outline fz20 p25">1</div>
-            <div class="dib w400 h400 outline fz20 p25">2</div>
-            <div class="dib w400 h400 outline fz20 p25">3</div>
+        <h1 class="homework-title">Float homework</h1>
+        <div class="w1200 mb50 fz20">
+          <div class="clearfix bg1">
+            <div class="fll w400 h400 outline p25">1</div>
+            <div class="fll w400 h400 outline p25">2</div>
+            <div class="fll w400 h400 outline p25">3</div>
           </div>
-          <div class="fz0 bg2">
-            <div class="dib fz20">
-              <div class="w800 h200 outline p25">4</div>
-              <div class="w800 h200 outline p25">5</div>
+          <div class="clearfix bg2">
+            <div class="fll w800 ">
+              <div class="h200 outline p25">4</div>
+              <div class="h200 outline p25">5</div>
             </div>
-            <div class="dib h400 fz20">
-              <div class="w400 h333p outline p25">6</div>
-              <div class="w400 h333p outline p25">7</div>
-              <div class="w400 h333p outline p25">8</div>
+            <div class="fll w400 h400 ">
+              <div class="h333p outline p25">6</div>
+              <div class="h333p outline p25">7</div>
+              <div class="h333p outline p25">8</div>
             </div>
           </div>
-          <div class="fz0 bg1">
-            <div class="dib w400 h400 outline fz20 p25">9</div>
-            <div class="dib">
-              <div class="w800 h200 outline fz20 p25">10</div>
-              <div class="fz0">
-                <div class="dib w400 h200 outline fz20 p25">11</div>
-                <div class="dib fz0">
-                  <div class="w400 h100 outline fz20 p25">12</div>
-                  <div class="w400 h100 outline fz20 p25">13</div>
+          <div class="clearfix bg1">
+            <div class="fll w400 h400 outline p25">9</div>
+            <div class="fll w800">
+              <div class="h200 outline p25">10</div>
+              <div class="clearfix">
+                <div class="fll w400 h200 outline p25">11</div>
+                <div class="fll w400">
+                  <div class="h100 outline p25">12</div>
+                  <div class="h100 outline p25">13</div>
                 </div>
               </div>
             </div>
@@ -88,6 +88,3 @@
       </div>
     </section>
   </main>
-
-  </body>
-  </html>

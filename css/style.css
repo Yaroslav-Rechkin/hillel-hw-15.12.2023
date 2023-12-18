@@ -194,10 +194,11 @@ body {
   border-radius: 10px;
   margin: 0 25px 25px 0;
 
-  background: url('../img/arrow-top.svg') center/50px no-repeat;
+  background: #fff url('../img/arrow-top.svg') center/50px no-repeat;
 }
 .to-the-top:hover {
-  background-color: #3462ab1a;
+  background-color: #eaeff6;
+
 }
 
 /* Gallery */
@@ -276,6 +277,15 @@ body {
   font-size: 60px;
   text-align: center;
 }
+.clearfix::after { 
+  content: "";
+  display: block; 
+  clear: both;
+}
+.fll {
+  float: left;
+}
+
 .w1200 {
   width: 1200px;
 }
