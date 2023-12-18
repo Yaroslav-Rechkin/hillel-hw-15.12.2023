@@ -295,6 +295,9 @@ body {
 .fll {
   float: left;
 }
+.flex {
+  display: flex;
+}
 
 .w1200 {
   width: 1200px;
