@@ -84,6 +84,12 @@ body {
   display: block;
 }
 .ddm {
+  background: #fff;
+  border: 1px solid rgba(141,148,158,.1);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,24,75,.15);
+  padding: 5px;
+
   display: none;
   position: absolute;
   top: 100%;
@@ -91,13 +97,6 @@ body {
   margin-left: -70px;
   min-width: 150px;
   padding-top: 7px;
-}
-.ddm-container {
-  background: #fff;
-  border: 1px solid rgba(141,148,158,.1);
-  border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(0,24,75,.15);
-  padding: 5px;
 }
 .ddm-item-link,
 .ddm-item:last-child {
@@ -126,8 +125,7 @@ body {
   top: -5px;
   min-width: 100px;
   padding-right: 10px;
-}
-.ddm-side-container {
+
   padding: 5px;
   background: #fff;
   box-shadow: 0 10px 25px rgba(0,24,75,.15);
@@ -381,6 +379,9 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+.socials-item a {
+  display: block;
 }
 .socials-link-facebook {
   background: url('../img/socials/facebook.svg') center/100% no-repeat;
