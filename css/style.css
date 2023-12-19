@@ -14,14 +14,26 @@
 
 /* *GLOBAL */
 
+html {
+  position: relative;
+}
+
 body {
   font-family: 'Solomon-Sans';
   color: rgb(52, 98, 171);
+  min-height: 100vh;
 }
 .container {
   max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
 }
 
 /* !HEADER */
@@ -202,7 +214,7 @@ body {
   box-shadow: 0 10px 25px rgba(0,24,75,.15);
   border: 1px solid rgba(141,148,158,.1);
   border-radius: 10px;
-  margin: 0 25px 25px 0;
+  margin: 0 25px 75px 0;
 
   background: #fff url('../img/arrow-top.svg') center/50px no-repeat;
 }
@@ -213,10 +225,14 @@ body {
 
 /* Gallery */
 
+.main {
+  margin-bottom: 100px;
+}
 .gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 75px;
 }
 .gallery-title {
   display: flex;
@@ -237,9 +253,6 @@ body {
 }
 .gallery-title-sub > a {
   text-decoration: underline;
-}
-.gallery-item {
-  margin-bottom: 30px;
 }
 .gallery-item-title {
   font-size: 36px;
@@ -344,9 +357,52 @@ body {
 .p25 {
   padding: 25px;
 }
-.mb50 {
-  margin-bottom: 50px;
-}
 .m0a {
   margin: 0 auto;
+}
+
+/* !FOOTER */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 1px solid rgba(141,148,158,.1);
+  box-shadow: 0 -5px 25px rgba(0,24,75,.15);
+  padding: 8px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.socials-link-facebook {
+  background: url('../img/socials/facebook.svg') center/100% no-repeat;
+  width: 26px;
+  height: 26px;
+}
+.socials-link-instagram {
+  background: url('../img/socials/instagram.svg') center/100% no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.socials-link-linkedin {
+  background: url('../img/socials/linkedin.svg') center/100% no-repeat;
+  width: 25px;
+  height: 25px;
+}
+.socials-link-github {
+  background: url('../img/socials/github.svg') center/100% no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.rights {
+  color: #7B939E;
+  font-size: 14px;
 }
