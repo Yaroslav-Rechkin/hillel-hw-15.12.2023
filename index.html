@@ -7,29 +7,53 @@
   <title>Hillel homeworks</title>
 </head>
 <body>
-  <header class="header">
+
+  <!-- header -->
+  
+  <header class="header" id="home">
     <div class="container">
       <div class="header-container">
-        <a class="header-logo" href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB"><img src="img/hillel-logo.svg" alt="Hillel IT school" width="17" height="33"></a>
+        <a class="header-logo" href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB" target="_blank">
+          <svg class="header-logo-icon">
+            <use href="img/sprite.svg#hillel-logo"></use>
+          </svg>
+        </a>
         <ul class="menu">
           <li class="menu-item">
-              <a class="menu-item-link" href="#">home</a>
+              <a href="#">
+                <svg class="menu-item-icon">
+                  <use href="img/sprite.svg#home"></use>
+                </svg>
+                <span>home</span>
+              </a>
           </li>
           <li class="menu-item">
-              <a class="menu-item-link" href="pages/gallery.html">gallery</a>
+              <a href="pages/gallery.html">
+                <svg class="menu-item-icon">
+                  <use href="img/sprite.svg#gallery"></use>
+                </svg>
+                <span>gallery</span>
+              </a>
           </li>
           <li class="menu-item">
-            homeworks
+            <svg class="menu-item-icon">
+              <use href="img/sprite.svg#arrow-bottom"></use>
+            </svg>
+            <span>homeworks</span>
               <ul class="ddm">
                 <li class="ddm-item"><a class="ddm-item-link" href="pages/table.html">table</a></li>
                 <li class="ddm-item"><a class="ddm-item-link" href="pages/inline-block.html">inline-block</a></li>
                 <li class="ddm-item"><a class="ddm-item-link" href="pages/float.html">float</a></li>
-                <li class="ddm-item">layouts
-                    <ul class="ddm-side">
-                      <li class="ddm-side-item">
-                        <a class="ddm-side-link" href="pages/flex.html">flex</a>
-                      </li>
-                    </ul>
+                <li class="ddm-item">
+                  <svg class="menu-item-icon">
+                    <use href="img/sprite.svg#arrow-left"></use>
+                  </svg>
+                  layouts
+                  <ul class="ddm-side">
+                    <li class="ddm-side-item">
+                      <a class="ddm-side-link" href="pages/flex.html">flex</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
           </li>
@@ -40,11 +64,13 @@
   </header>
 
   <!-- main -->
+
   <main class="main">
-    <section>
+    <section class="section">
       <div class="container"></div>
     </section>
   </main>
+
   <!-- footer -->
 
   <footer class="footer">
@@ -52,16 +78,32 @@
       <div class="rights">© 2023 Hillel homeworks</div>
       <ul class="socials">
         <li class="socials-item">
-          <a class="socials-link-facebook" href="https://www.facebook.com/profile.php?id=100081681295866" target="_blank"></a>
+          <a href="https://www.facebook.com/profile.php?id=100081681295866" target="_blank">
+            <svg class="socials-icon">
+              <use href="img/socials/sprite-socials.svg#facebook"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-item">
-          <a class="socials-link-instagram" href="https://www.instagram.com/ryr200002/" target="_blank"></a>
+          <a href="https://www.instagram.com/ryr200002/" target="_blank">
+            <svg class="socials-icon">
+              <use href="img/socials/sprite-socials.svg#instagram"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-item">
-          <a class="socials-link-linkedin" href="https://www.linkedin.com/in/yaroslavrechkin/" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/yaroslavrechkin/" target="_blank">
+            <svg class="socials-icon">
+              <use href="img/socials/sprite-socials.svg#linkedin"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-item">
-          <a class="socials-link-github" href="https://github.com/Yaroslav-Rechkin" target="_blank"></a>
+          <a href="https://github.com/Yaroslav-Rechkin" target="_blank">
+            <svg class="socials-icon">
+              <use href="img/socials/sprite-socials.svg#github"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </div>
