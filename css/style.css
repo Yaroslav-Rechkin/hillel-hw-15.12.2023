@@ -85,6 +85,7 @@ body {
 .menu-item > a,
 .menu-item:last-child {
   position: relative;
+  z-index: 10;
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
@@ -98,7 +99,8 @@ body {
   border-radius: 10px;
 }
 .menu-item:last-child:hover .ddm {
-  display: block;
+  top: 100%;
+  opacity: 1;
 }
 .menu-item-icon {
   position: absolute;
@@ -112,13 +114,15 @@ body {
   stroke: rgb(52, 98, 171);
 }
 .ddm {
-  display: none;
   position: absolute;
-  top: 100%;
+  top: -1000%;
   left: 50%;
+  z-index: -10;
   min-width: 150px;
   transform: translate(-50%, 0);
+  transition: all .1s linear;
 
+  opacity: 0;
   background: #fff;
   border: 1px solid rgba(141,148,158,.1);
   border-radius: 10px;
@@ -138,24 +142,25 @@ body {
   background: #f1fafe;
 }
 .ddm-item:last-child:hover .ddm-side {
-  display: block;
+  right: 100%;
+  opacity: 1;
 }
 .ddm-side {
-  display: none; 
   position: absolute;
-  right: 100%;
-  top: -5px;
+  right: -25%;
+  top: 0;
   min-width: 100px;
+  opacity: 0;
+  transition: all .1s ease;
 
-  padding: 5px;
   background: #fff;
   box-shadow: 0 10px 25px rgba(0,24,75,.15);
-  border: 1px solid rgba(141,148,158,.1);
   border-radius: 10px;
   text-align: center;
 }
 .ddm-side-item:hover {
   background: #f1fafe;
+  border-radius: 10px;
 }
 
 /* !MAIN */
