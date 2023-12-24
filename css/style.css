@@ -85,14 +85,14 @@ body {
 .menu-item > a,
 .menu-item:last-child {
   position: relative;
-  z-index: 10;
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
   padding: 8px 15px 10px 25px;
+  background: #fff;
 }
 .menu-item:last-child {
-  padding: 8px 0 10px 25px;
+  padding: 8px 25px 10px 0;
 }
 .menu-item a:hover {
   background: rgba(52, 98, 171, 0.1);
@@ -113,9 +113,14 @@ body {
   fill: rgb(52, 98, 171);
   stroke: rgb(52, 98, 171);
 }
+.menu-item-arrow {
+  right: 0;
+  left: auto;
+  padding: 0;
+}
 .ddm {
   position: absolute;
-  top: -1000%;
+  top: -100%;
   left: 50%;
   z-index: -10;
   min-width: 150px;
@@ -137,6 +142,7 @@ body {
   line-height: 34px;
   border-radius: 8px;
   padding: 0 15px 0 26px;
+  background: #fff;
 }
 .ddm-item-link:hover {
   background: #f1fafe;
@@ -147,8 +153,9 @@ body {
 }
 .ddm-side {
   position: absolute;
-  right: -25%;
+  right: 0;
   top: 0;
+  z-index: -10;
   min-width: 100px;
   opacity: 0;
   transition: all .1s ease;
