@@ -7,148 +7,226 @@
   <title>Inline-block homework</title>
 </head>
 <body>
-  <header class="header" id="home">
-    <div class="container">
-      <div class="header-container">
-        <a class="header-logo" href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB" target="_blank">
-          <svg class="header-logo-icon">
-            <use href="../img/sprite.svg#hillel-logo"></use>
-          </svg>
-        </a>
-        <ul class="menu">
-          <li class="menu-item">
-              <a href="../index.html">
-                <svg class="menu-item-icon">
-                  <use href="../img/sprite.svg#home"></use>
-                </svg>
-                <span>home</span>
-              </a>
-          </li>
-          <li class="menu-item">
-              <a href="gallery.html">
-                <svg class="menu-item-icon">
-                  <use href="../img/sprite.svg#gallery"></use>
-                </svg>
-                <span>gallery</span>
-              </a>
-          </li>
-          <li class="menu-item">
-            <span>homeworks</span>
-            <svg class="menu-item-icon menu-item-arrow">
-              <use href="../img/sprite.svg#arrow-bottom"></use>
-            </svg>
-              <ul class="ddm">
-                <li class="ddm-item"><a class="ddm-item-link" href="table.html">table</a></li>
-                <li class="ddm-item"><a class="ddm-item-link" href="#">inline-block</a></li>
-                <li class="ddm-item"><a class="ddm-item-link" href="float.html">float</a></li>
-                <li class="ddm-item">
-                  <svg class="menu-item-icon">
-                    <use href="../img/sprite.svg#arrow-left"></use>
-                  </svg>
-                  layouts
-                  <ul class="ddm-side">
-                    <li class="ddm-side-item">
-                      <a class="ddm-side-link" href="flex.html">flex</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-          </li>
-        </ul>
-        <div class="header-title">Hillel homeworks</div>
-      </div>
+
+  <!-- sidebar -->
+
+  <div class="sidebar">
+    <div class="sidebar-wrap">
+      <a class="sidebar-logo" href="https://ithillel.ua/?gad_source=1&gclid=Cj0KCQiAj_CrBhD-ARIsAIiMxT9p5ilV6sFCMWBqUTEQId9bkvPbmPrGCWnpuovrvsELq7BYLpvXJB8aAgfuEALw_wcB" target="_blank">
+        <svg class="sidebar-logo-icon">
+          <use href="../img/sprite.svg#hillel-logo"></use>
+        </svg>
+      </a>
     </div>
-  </header>
+    <ul class="sidebar-menu">
+      <li class="sidebar-menu-item">
+        <a href="../index.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sprite.svg#home"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">home</span>
+        </a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="gallery.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sprite.svg#gallery"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">gallery</span>
+        </a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="table.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sidebar-sprite.svg#table"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">table</span>
+        </a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="inline-block.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sidebar-sprite.svg#inline-block"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">inline-block</span>
+        </a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="float.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sidebar-sprite.svg#float"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">float</span>
+        </a>
+      </li>
+      <li class="sidebar-menu-item">
+        <a href="flex.html">
+          <span class="sidebar-menu-item-border">
+            <svg class="sidebar-menu-item-border-icon">
+              <use href="../img/sidebar-sprite.svg#flex"></use>
+            </svg>
+          </span>
+          <span class="sidebar-menu-item-txt">flex</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-  <!-- Main -->
+  <div class="wrap">
 
-  <main class="main">
+    <!-- header -->
 
-    <!-- to-the-top -->
-
-    <a class="to-the-top" href="#home">
-      <svg class="to-the-top-icon">
-        <use href="../img/sprite.svg#arrow-top"></use>
-      </svg>
-    </a>
-
-    <!-- inline-block homework -->
-
-    <section>
+    <header class="header" id="home">
       <div class="container">
-        <h1 class="homework-title">Inline-block homework</h1>
-        <div class="w1200 mb50">
-          <div class="fz0 bg1">
-            <div class="dib w400 h400 outline fz20 p25">1</div>
-            <div class="dib w400 h400 outline fz20 p25">2</div>
-            <div class="dib w400 h400 outline fz20 p25">3</div>
-          </div>
-          <div class="fz0 bg2">
-            <div class="dib fz20">
-              <div class="w800 h200 outline p25">4</div>
-              <div class="w800 h200 outline p25">5</div>
+        <div class="header-container">
+          <ul class="menu">
+            <li class="menu-item">
+                <a href="../index.html">
+                  <svg class="menu-item-icon">
+                    <use href="../img/sprite.svg#home"></use>
+                  </svg>
+                  <span>home</span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="gallery.html">
+                  <svg class="menu-item-icon">
+                    <use href="../img/sprite.svg#gallery"></use>
+                  </svg>
+                  <span>gallery</span>
+                </a>
+            </li>
+            <li class="menu-item">
+              <span>homeworks</span>
+              <svg class="menu-item-icon menu-item-arrow">
+                <use href="../img/sprite.svg#arrow-bottom"></use>
+              </svg>
+                <ul class="ddm">
+                  <li class="ddm-item"><a class="ddm-item-link" href="table.html">table</a></li>
+                  <li class="ddm-item"><a class="ddm-item-link" href="#">inline-block</a></li>
+                  <li class="ddm-item"><a class="ddm-item-link" href="float.html">float</a></li>
+                  <li class="ddm-item">
+                    <svg class="menu-item-icon">
+                      <use href="../img/sprite.svg#arrow-left"></use>
+                    </svg>
+                    layouts
+                    <ul class="ddm-side">
+                      <li class="ddm-side-item">
+                        <a class="ddm-side-link" href="flex.html">flex</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+          <div class="header-title">Hillel homeworks</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main">
+
+      <!-- to-the-top -->
+
+      <a class="to-the-top" href="#home">
+        <svg class="to-the-top-icon">
+          <use href="../img/sprite.svg#arrow-top"></use>
+        </svg>
+      </a>
+
+      <!-- inline-block homework -->
+
+      <section>
+        <div class="container">
+          <h1 class="homework-title">Inline-block homework</h1>
+          <div class="w1200 mb50">
+            <div class="fz0 bg1">
+              <div class="dib w400 h400 outline fz20 p25">1</div>
+              <div class="dib w400 h400 outline fz20 p25">2</div>
+              <div class="dib w400 h400 outline fz20 p25">3</div>
             </div>
-            <div class="dib h400 fz20">
-              <div class="w400 h333p outline p25">6</div>
-              <div class="w400 h333p outline p25">7</div>
-              <div class="w400 h333p outline p25">8</div>
+            <div class="fz0 bg2">
+              <div class="dib fz20">
+                <div class="w800 h200 outline p25">4</div>
+                <div class="w800 h200 outline p25">5</div>
+              </div>
+              <div class="dib h400 fz20">
+                <div class="w400 h333p outline p25">6</div>
+                <div class="w400 h333p outline p25">7</div>
+                <div class="w400 h333p outline p25">8</div>
+              </div>
             </div>
-          </div>
-          <div class="fz0 bg1">
-            <div class="dib w400 h400 outline fz20 p25">9</div>
-            <div class="dib">
-              <div class="w800 h200 outline fz20 p25">10</div>
-              <div class="fz0">
-                <div class="dib w400 h200 outline fz20 p25">11</div>
-                <div class="dib fz0">
-                  <div class="w400 h100 outline fz20 p25">12</div>
-                  <div class="w400 h100 outline fz20 p25">13</div>
+            <div class="fz0 bg1">
+              <div class="dib w400 h400 outline fz20 p25">9</div>
+              <div class="dib">
+                <div class="w800 h200 outline fz20 p25">10</div>
+                <div class="fz0">
+                  <div class="dib w400 h200 outline fz20 p25">11</div>
+                  <div class="dib fz0">
+                    <div class="w400 h100 outline fz20 p25">12</div>
+                    <div class="w400 h100 outline fz20 p25">13</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="rights">© 2023 Hillel homeworks</div>
+        <ul class="socials">
+          <li class="socials-item">
+            <a href="https://www.facebook.com/profile.php?id=100081681295866" target="_blank">
+              <svg class="socials-icon">
+                <use href="../img/socials/sprite-socials.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="https://www.instagram.com/ryr200002/" target="_blank">
+              <svg class="socials-icon">
+                <use href="../img/socials/sprite-socials.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="https://www.linkedin.com/in/yaroslavrechkin/" target="_blank">
+              <svg class="socials-icon">
+                <use href="../img/socials/sprite-socials.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a href="https://github.com/Yaroslav-Rechkin" target="_blank">
+              <svg class="socials-icon">
+                <use href="../img/socials/sprite-socials.svg#github"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
       </div>
-    </section>
-  </main>
-
-  <!-- footer -->
-
-  <footer class="footer">
-    <div class="container footer-container">
-      <div class="rights">© 2023 Hillel homeworks</div>
-      <ul class="socials">
-        <li class="socials-item">
-          <a href="https://www.facebook.com/profile.php?id=100081681295866" target="_blank">
-            <svg class="socials-icon">
-              <use href="../img/socials/sprite-socials.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials-item">
-          <a href="https://www.instagram.com/ryr200002/" target="_blank">
-            <svg class="socials-icon">
-              <use href="../img/socials/sprite-socials.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials-item">
-          <a href="https://www.linkedin.com/in/yaroslavrechkin/" target="_blank">
-            <svg class="socials-icon">
-              <use href="../img/socials/sprite-socials.svg#linkedin"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="socials-item">
-          <a href="https://github.com/Yaroslav-Rechkin" target="_blank">
-            <svg class="socials-icon">
-              <use href="../img/socials/sprite-socials.svg#github"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+    </footer>
+    
+  </div> <!-- </wrap -->
 
   </body>
   </html>
